@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- dashboards.html -->
+<!-- Authors: Will Inglis, Grace Kim, Esther Kim-->
+<!-- Date Created: Apr 01, 2022 -->
+<!-- GEOM 99 Group Project Metrolinx -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="Image/jpg" href="image/Metro.jpg">
+        <title>About Us</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <!-- Navigation Bar -->
+           <nav>
+            <input id="nav-toggle" type="checkbox">
+            <div class="logo"><strong>Metrolinx Problem</strong></div>
+		<ul class="links">
+			<li><a href="index.html">Home</a><li>
+			<li><a href="problemstatement.html">Problem Statement</a><li>
+		<div class="services list1">
+		<a href="#">Methodology</a>
+              <!-- Dropdown Menu -->
+              <ul class="dropdown-content">
+                  <li class="list2"><a href="storymaps.html">StoryMaps</a></li>
+                  <li class="list2"><a href="experiencebuilder.html">Experience Builder</a></li>
+                  <li class="list2"><a href="dashboards.html">Dashboards</a></li>
+                  <li class="list2"><a href="other.html">Other</a></li>
+              </ul>
+		</div>
+			<li><a href="aboutus.html">About The Team</a><li>
+		</ul>
+		<label for="nav-toggle" class="icon-burger">
+               	<span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+		</label>
+	    </nav>
+
+    <section class="background1">
+        <div class="center">
+            <h1>About Us <i>Team Metrolinx</i></h1>
+            <p id="PLayout2">
+              <i>Metrolinx Problem Solvers</i></p>
+            <h3>Who are we?</h3>
+        </div>
+        <div class="containerindex">
+		<div class="center">
+	<h3>GIS Applications Specialist</h3>
+            <p class="nameid">Will</p>
+            <ul>
+                <li>xyz</li>
+            </ul>
+		<button onclick = "GButton()">Learn More</button>
+		</div>
+		<div class="center">
+            <h3>GIS Application Specialist</h3>
+		<p class="nameid">Grace</p>
+            <ul>
+		<li>xyz</li>
+            </ul>
+            <button onclick="RButton()">Learn More</button>
+		</div>
+		<div class="center">
+	<h3>GIS Application Specialist</h3>
+            <p class="nameid">Esther</p>
+            <ul>
+                <li>xyz</li>
+            </ul>
+		<button onclick="CButton()">Learn More</button>
+		</div>
+        </div>
+    </section>
+
+     <!-- Concluding remarks and button to contact us page-->   
+     <section class="background2">
+        <div class="container2">
+            <div class="center">
+                <h1>Our Methodology involves</h1>
+		    <ul>
+			<li>Take a look at our storymap</li>
+		    </ul>
+		    <button onclick="SButton()">See Storymaps</button>
+		    <ul>
+			<li>Take a look at our dashboard</li>
+		    </ul>
+		    <button onclick="DButton()">See Dashboards</button>
+		    <ul>
+			<li>Take a look at our experience builder</li>
+		    </ul>
+		    <button onclick="EButton()">See Experience Builder</button>
+		    <ul>
+			<li>Take a look at our other content we made</li>
+		    </ul>
+		    <button onclick="OButton()">See Other</button>
+            </div>
+		
+            <!--Back to Top Button-->
+            <div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            </div>
+        </div>
+      </section>
+    <script src="script.js"></script> <!-- Call in script.js for button and other functions-->
+    <script>
+	    
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+    </script>
+    </body>
+  </html>
