@@ -18,21 +18,21 @@ function topFunction() {
 /* Reused asset from A3Web Assignment - button function */ 
 
 function myButton() {
-  window.location.href = "https://darkside8713.github.io/geom99test/storymaps.html";
+  window.location.href = "https://grkis.github.io/Metrolinx/storymaps.html";
 }
 
 function SButton() {
-  window.location.href = "https://darkside8713.github.io/geom99test/storymaps.html";
+  window.location.href = "https://grkis.github.io/Metrolinx/storymaps.html";
 }
 
 function DButton() {
-  window.location.href = "https://darkside8713.github.io/geom99test/dashboards.html";
+  window.location.href = "https://grkis.github.io/Metrolinx/dashboards.html";
 }
 
 function EButton() {
-  window.location.href = "https://darkside8713.github.io/geom99test/experiencebuilder.html";
+  window.location.href = "https://grkis.github.io/Metrolinx/experiencebuilder.html";
 }
 
 function OButton() {
-  window.location.href = "https://darkside8713.github.io/geom99test/other.html";
+  window.location.href = "https://grkis.github.io/Metrolinx/other.html";
 }
