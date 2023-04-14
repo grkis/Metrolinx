@@ -349,3 +349,16 @@ display: block;
   align-items: center;
   justify-content: center;
  }
+
+/* StoryMap specific css */
+
+.storymapH1{
+	font-size: 3rem;
+	color: white;
+}
+
+.storymapfont{
+	font-size: 1rem;
+	color: white;
+}
+
