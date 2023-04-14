@@ -1,6 +1,8 @@
+/* Style.CSS */
 /* Author: Will Inglis, Grace Kim, Esther Kim */
 /* Date Created: April 1st, 2023 
    Last Modified: April 13th, 2023 */
+/* GEOM99 Group Project - Metrolinx */
 
 html, body {
     background: #212325;
@@ -89,7 +91,7 @@ nav {
 	height: 100px;
 	background-color: #111212; /*Refresh Black*/
 }
-/* to change nav colour in about page */
+/* Change colour in "About Us" page */
 .otherNav {
   background-color: #57677d;
 }
@@ -206,7 +208,7 @@ nav .icon-burger .line {
 position: relative;
 }
 
-/* Dropdown content (hidden by default) -reused from a3web assignment */
+/* Dropdown content (hidden by default)*/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -247,7 +249,7 @@ display: block;
   display: block;
   width: 100%;
 }
-/* end of banner*/
+/* End of banner*/
 
 /* CSS for About us Page */
 
