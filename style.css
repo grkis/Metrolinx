@@ -168,7 +168,7 @@ nav .icon-burger .line {
   display: block;
 }
 
-/*Media query will give a tailored experience to different devices (commenting out for now)
+/*Media query will give a tailored experience to different devices */
 
 @media screen and (max-width: 1200px) {
 	nav .logo {
@@ -211,8 +211,6 @@ nav .icon-burger .line {
 		opacity: 0;
 	}
 }
-
-*/
 
 /* DROPDOWN MENU */
 
