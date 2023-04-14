@@ -25,10 +25,6 @@ function SButton() {
   window.location.href = "https://storymaps.arcgis.com/stories/4361d4a3d1424b6f8e116a7d0c1d65b6";
 }
 
-function DButton() {
-  window.location.href = "https://grkis.github.io/Metrolinx/dashboards.html";
-}
-
 function EButton() {
   window.location.href = "https://experience.arcgis.com/experience/2a10bd80f10f4fd9a3a12a705a87f144";
 }
