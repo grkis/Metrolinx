@@ -1,6 +1,9 @@
-/* script.js*/
+// Script.js //
+// Authors: Will Inglis, Grace Kim, Esther Kim //
+// Date Created: Apr 01, 2023 // Last Modified: April 13th, 2023 //
+// GEOM99 Group Project - Metrolinx //
 
-/* Reused asset from A3Web Assignment - scroll functionality */ 
+// Scroll functionality // 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -15,7 +18,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-/* Reused asset from A3Web Assignment - button function */ 
+// Button function // 
 
 function myButton() {
   window.location.href = "https://grkis.github.io/Metrolinx/storymaps.html";
