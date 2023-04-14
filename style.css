@@ -355,6 +355,37 @@ display: block;
   align-items: center;
   justify-content: center;
  }
+/* StoryMap specific css */
+
+.storymapH1{
+	font-size: 5rem;
+	color: white;
+}
+
+.storymapfont{
+	font-size: 1rem;
+	color: white;
+}
+
+.buttonlink{
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+buttonlink:hover, buttonlink:active {
+  background-color: red;
+}
+
+.storyexp{
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Image configuration for Experience Builder page */
 
 .image-container {
   display: grid;
