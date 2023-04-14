@@ -374,3 +374,7 @@ display: block;
 #textColour {
   color: #ebf2f7;
 }
+#mainTitle {
+  font-weight: 300;
+  font-size: 2.5em;
+}
