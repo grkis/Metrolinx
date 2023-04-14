@@ -31,12 +31,12 @@ section{
 h1{
     color: #ebf2f7;
     font-weight: 500;
-    font-size: 1.6em;
+    font-size: 2.2em;
 }
 h2{
     color: #a3a8ac;
     font-weight: 100;
-    font-size: 1.3em;
+    font-size: 1.8em;
 }
 h3 {
     color: #394352;
@@ -438,4 +438,7 @@ display: block;
 .containerText {
   text-align: center;
   max-width: 65ch;
+}
+#textColour {
+  color: #ebf2f7;
 }
