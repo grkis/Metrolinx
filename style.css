@@ -19,6 +19,12 @@ main{
     padding-left: 15%;
     padding-right: 15%;
 }
+/* To make sure Methodology page headers do not get covered by bar */
+@media (max-width: 1000px) {
+  main {
+    padding-top: 105px;
+  }
+}
 section{
     padding-bottom: 20px;
 }
@@ -349,3 +355,32 @@ display: block;
   align-items: center;
   justify-content: center;
  }
+
+.image-container {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+}
+.image-container-row {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  grid-auto-flow: column;
+  gap: 1em;
+}
+@media screen and (max-width: 1150px) {
+  .image-container-row {
+    grid-auto-flow: row;
+  }
+}
+.containImage {
+  max-width: 100%;
+  padding: 2%;
+  display: grid;
+  justify-items: center;
+
+}
+.containerText {
+  text-align: center;
+  max-width: 65ch;
+}
