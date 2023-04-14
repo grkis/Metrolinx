@@ -108,11 +108,24 @@
                     you are able to configure the pages, it is a simple tool for both developers and users alike.
                 </p>
                 <p>Below is a link to our Experience Builder.</p>
-                <button onclick="EButton()">Experience Builder</button>
+                <a href="https://experience.arcgis.com/experience/2a10bd80f10f4fd9a3a12a705a87f144" class="buttonlink">See Experience Builder</a>
 		
             </section>
+                <!--Back to Top Button-->
+                <div>
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                </div>
+            <script src="script.js"></script> <!-- Call in script.js for functions-->
+            <script>
+        
+                // Get the button:
+                let mybutton = document.getElementById("myBtn");
+        
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+        
+            </script>
         </main>
-        <script src="script.js"></script> <!-- Call in script.js for button and other functions-->
         <!-- Footer -->
         <footer>
             <p id="footer">Copyright &#169; Metrolinx Team. All Right Reserved.</p>
