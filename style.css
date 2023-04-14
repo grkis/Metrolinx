@@ -370,3 +370,12 @@ display: block;
   text-decoration: none;
   display: inline-block;
 }
+
+buttonlink:hover, buttonlink:active {
+  background-color: red;
+}
+
+.storyexp{
+  color: yellow;
+  text-decoration: underline;
+}
