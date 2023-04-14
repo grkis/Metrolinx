@@ -38,6 +38,11 @@ h2{
     font-weight: 100;
     font-size: 1.3em;
 }
+h3 {
+    color: #394352;
+    font-weight: 500;
+    font-size: 1.3em;
+}
 p {
     color: #ffffff;
     line-height: 1.5;
@@ -96,7 +101,10 @@ nav {
 	height: 100px;
 	background-color: #111212; /*Refresh Black*/
 }
-
+/* to change nav colour in about page */
+.otherNav {
+  background-color: #4d596a;
+}
 nav .logo {
 	float: left;
 	width: 40%;
@@ -262,9 +270,14 @@ display: block;
   color:#ffffff;
   font-style: bold;
 }
+.bodyid{
+  font-size: 16px;
+  color: #ffffff;
+  font-style: 300;
+}
 
  .background1 {
-    background: darkgray;
+    background: #8896a9;
  }
 
 .container {
@@ -293,18 +306,17 @@ display: block;
   color:  #000;
   align-items: center;
   text-align: center;
-
 }
 
 .center h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .center p {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.3rem;
+  line-height: 1.3;
 }
   
  .column-left {
@@ -331,15 +343,15 @@ display: block;
     padding: 1rem 3rem;
     font-size: 1rem;
     border: none;
-    color: #03fff6;
-    background: #000000;
+    color: #f9fbfc;
+    background: #4d596a;
     cursor: pointer;
     border-radius: 50px;
  }
   
  button:hover {
     background: #fff;
-    color: #000;
+    color: #4d596a;
  }
   
  .column-right {
@@ -406,6 +418,7 @@ buttonlink:hover, buttonlink:active {
   justify-content: center;
   grid-auto-flow: column;
   gap: 1em;
+  flex: 1 1 0;
 }
 @media screen and (max-width: 1150px) {
   .image-container-row {
