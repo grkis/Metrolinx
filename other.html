@@ -15,10 +15,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!-- Navigation Bar -->
-           <nav>
+       <!-- Navigation Bar -->
+        <nav>
             <input id="nav-toggle" type="checkbox">
-            <div class="logo"><strong>Metrolinx Problem</strong></div>
+            <div class="logo"><strong>Metrolinx Climate Resilience</strong></div>
 		<ul class="links">
 			<li><a href="index.html">Home</a><li>
 			<li><a href="problemstatement.html">Problem Statement</a><li>
@@ -26,10 +26,10 @@
 		<a href="#">Methodology</a>
               <!-- Dropdown Menu -->
               <ul class="dropdown-content">
+		  <li class="list2"><a href="other.html">Web Map</a></li>
                   <li class="list2"><a href="storymaps.html">StoryMaps</a></li>
                   <li class="list2"><a href="experiencebuilder.html">Experience Builder</a></li>
                   <li class="list2"><a href="dashboards.html">Dashboards</a></li>
-                  <li class="list2"><a href="other.html">Other</a></li>
               </ul>
 		</div>
 			<li><a href="aboutus.html">The Team</a><li>
@@ -39,16 +39,30 @@
                 <span class="line"></span>
                 <span class="line"></span>
 		</label>
-	    </nav>
+        </nav>
         
 	<!-- Main Content -->
         <main>
-             <!-- Other -->
+             <!-- Web Map Content -->
             <section>
-                <h1>For extra stuff if needed</h1>
-		    <p> xyz </p>
+                <h1 class="storymapH1"> Creating a web map to deploy on ArcGIS Online products </h1> 
+		    <h2 class="storymapH2"> From ArcGIS Pro to ArcGIS Online </h2>
+		    <p class="storymapfont"> Before creating AGOL products, it is necessary to create an appropriate web map. To achieve this, layers downloaded from Metrolinx and Ontario Climate Change Portal were imported into ArcGIS Pro and spatially joined. The resulting output was then shared as a feature layer on ArcGIS Online, where the process of configuring a web map commenced. </p>
 		
-            </section>
+		    <img src="image/webmap2_1940_1000.png" alt="focus" class="responsive">
+		    
+		    <h2 class="storymapH2"> Symbolizing on ArcGIS Web Map Viewer </h2>
+		    <p class="storymapfont"> ArcGIS Web Map Viewer offers a variety of ways to symbolize the data at hand. For this project, we wanted to user to be able to distinguish between "Exisiting" and "Proposed" stations. These symbols will also be further explained by the interactive legend in our <a href="storymaps.html" class="storyexp">StoryMap</a>.
+		    
+	            <img src="image/webmap3_1940_1000.png" alt="focus" class="responsive">
+	            <h2 class="storymapH2"> Configuring the popup </h2>
+		    <p class="storymapfont"> At first, the default popup was set as the field and their associated values. These values are not very helpful to the user without some context. We used Arcade within the popup configuration option in Web Map Viewer to make a popup that is more informative. It also summarizes some of the concerns that Metrolinx has outlined in their 2017 report. 
+		    <img src="image/webmap3_1940_1000.png" alt="focus" class="responsive">
+		    <h2 class="storymapH2"> The final product and our thoughts</h2>
+		    <p class="storymapfont"> Overall,  the utilization of ArcGIS Pro and ArcGIS Web Map Viewer proved to be effective in establishing a strong foundational map for our ArcGIS Online products. ArcGIS Pro's spatial analysis tool box allowed us to merge different feature classes together to create one robust feature layer that can be published on ArcGIS Online. The Web Map Viewer helped to make the final output to be more user friendly, as well as integrate some symbology.
+		    <a href="https://storymaps.arcgis.com/stories/4361d4a3d1424b6f8e116a7d0c1d65b6" class="buttonlink">Check out our published web map! </a>
+		
+		</section>
         </main>
 	    
         <!-- Footer -->
