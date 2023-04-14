@@ -30,5 +30,5 @@ function EButton() {
 }
 
 function OButton() {
-  window.location.href = "https://fleming.maps.arcgis.com/apps/mapviewer/index.html?webmap=18527f59168945de8711e593ce8c2a81";
+    window.open("https://fleming.maps.arcgis.com/apps/mapviewer/index.html?webmap=18527f59168945de8711e593ce8c2a81", "_blank");
 }
