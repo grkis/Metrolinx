@@ -358,6 +358,12 @@ display: block;
 /* StoryMap specific css */
 
 .storymapH1{
+	font-size: 6rem;
+	color: white;
+	font-weight: bold;
+}
+
+.storymapH1{
 	font-size: 5rem;
 	color: white;
 }
@@ -374,6 +380,8 @@ display: block;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 buttonlink:hover, buttonlink:active {
