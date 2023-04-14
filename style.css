@@ -394,6 +394,11 @@ buttonlink:hover, buttonlink:active {
   text-decoration: underline;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 /* Image configuration for Experience Builder page */
 
 .image-container {
