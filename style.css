@@ -397,7 +397,7 @@ display: block;
   margin-bottom: 1rem;
 }
 
-buttonlink:hover, buttonlink:active {
+.buttonlink:hover, .buttonlink:active {
   background-color: red;
 }
 
@@ -424,7 +424,6 @@ buttonlink:hover, buttonlink:active {
   justify-content: center;
   grid-auto-flow: column;
   gap: 1em;
-  flex: 1 1 0;
 }
 @media screen and (max-width: 1150px) {
   .image-container-row {

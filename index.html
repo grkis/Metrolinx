@@ -21,12 +21,12 @@
             <div class="logo"><strong>Metrolinx Climate Resilience</strong></div>
 		<ul class="links">
 			<li><a href="index.html">The Problem</a><li>
-			<li><a href="problemstatement.html">Problem Statement</a><li>
+			<li><a href="methodology.html">Methodology</a><li>
 		<div class="services list1">
 		<a href="#">The Solution</a>
               <!-- Dropdown Menu -->
               <ul class="dropdown-content">
-		          <li class="list2"><a href="other.html">Web Map</a></li>
+		          <li class="list2"><a href="webmap.html">Web Map</a></li>
                   <li class="list2"><a href="storymaps.html">StoryMaps</a></li>
                   <li class="list2"><a href="experiencebuilder.html">Experience Builder</a></li>
               </ul>
@@ -59,10 +59,56 @@
                     <p>The public does not want to read a long report on how climate change can effect train stations, so the public is not aware of the issues related to climate change on transit systems</p>
                     <h2>Proposal</h2>
                     <p>To create an interactive tool, accessible online, that shares the climate challenges on train stations raised by Metrolinx in a user-friendly way. </p>
-                    <h2>Technology Used</h2>
+                    <h2>Technology to be Used</h2>
                     <p>ArcHub, Map Viewer, ArcGIS Developers, Web app builder, ArcGIS Online ecosystem</p>
             </section>
-        </main>
+            <section>
+                <h1>How it Went - The Solution</h1>
+                <p>In the end, we were able to create a possible tool to share knowledge about Metrolinx train stations and their vulnerability to the 
+                    changing climate. Our focus was on utilizing ArcGIS products to create our solution, and although we had intended on using ArcGIS Hub, 
+                    our inability to do so led us to other tools that could provide an interactive and accessible application. 
+                </p>
+                <p>Take a look at what we found.</p>
+            </section>
+
+        
+    <!-- Concluding remarks and button to contact us page-->      <!-- The links for the javascript buttons will be broken once we submit-->
+    <section>
+        <div class="container2">
+            <div class="center">
+                <h1>Our Methodology involves</h1>
+                <ul>
+                    <p>Take a look at the web map we made</p>
+                </ul>
+                <a href="webmap.html" class="buttonlink">See Web Map</a>
+                <ul>
+                    <p>Take a look at our storymap</p>
+                </ul>
+                <a href="storymaps.html" class="buttonlink">See StoryMaps</a>
+                <ul>
+                    <p>Take a look at our experience builder</p>
+                </ul>
+                <a href="experiencebuilder.html" class="buttonlink">See Experience Builder</a>
+    
+            </div>
+    
+            <!--Back to Top Button-->
+            <div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script> <!-- Call in script.js for button and other functions-->
+    <script>
+
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+    </script>
+            </main>
         <!-- Footer -->
         <footer>
             <p id="footer">Copyright &#169; Metrolinx Team. All Right Reserved</p>
